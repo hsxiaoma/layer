@@ -2,7 +2,7 @@
 ```
 package.json
 	"version": "2.3" --> "version": "2.4.0"
-	"mobile": "1.8" --> "version": "2.3"
+	"mobile": "1.8" --> "mobile": "1.8.0"
 ```
 
 解决npm install报错的问题。
