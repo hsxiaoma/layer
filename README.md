@@ -1,3 +1,36 @@
+# 变更1
+```
+package.json
+	"version": "2.3" --> "version": "2.4.0"
+	"mobile": "1.8" --> "version": "2.3"
+```
+
+解决npm install报错的问题。
+
+nodejs版本：v4.4.7
+
+npm版本：2.14.15
+
+```
+9 error node v4.4.7
+10 error npm  v2.14.15
+11 error Invalid version: "2.4"
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
+```
+
+# 变更2
+
+原有的版本不能在FIS3框架中作为第三方组件使用，报id.replace is not function错误。查看分析认为是代码结构封装问题，于是以underscore代码结构为范本进行了重构，完美解决以上问题。
+
+# 构建步骤
+
+```
+npm install
+grunt
+```
+
 
 ## 简要
 layer是一款近年来口碑非常不错的web弹层组件，她具备全方位的解决方案，致力于服务各个水平段的开发人员，您的页面会轻松地拥有丰富友好的操作体验。
