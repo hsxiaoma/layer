@@ -1,14 +1,13 @@
-//     Underscore.js 1.8.3
-//     http://underscorejs.org
-//     (c) 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
-//     Underscore may be freely distributed under the MIT license.
+// @Name：layer v2.4 弹层组件
+ // @Author：贤心
+ // @Site：http://layer.layui.com
+ // @License：LGPL
 
-(function () {
+;(function () {
 
     // Baseline setup
     // 基础定义
-
-    // 由于underscore即支持浏览器端运行,又支持服务端运行,所以,需要判定根节点是'window'对象还是'global'对象
+    // 由于 layer 即支持浏览器端运行,又支持服务端运行,所以,需要判定根节点是'window'对象还是'global'对象
     // 值得注意的是, 如果当前系统中存在了self对象,且满足一定条件,那么他表示的就是浏览器端的根对象(全局对象)
     // 这个可以通过在chrome控制台敲击self证实
 	// [update by 168189878@qq.com 2016-08-16]
@@ -186,10 +185,6 @@
 	  }
 	};
 
-	
-	
-	
-	
 	
 	var Class = function(setings){  
 	  var that = this;
@@ -1118,4 +1113,4 @@
 		ready.run();
 		layer.use('skin/layer.css');
 	}
-}());
+})();
